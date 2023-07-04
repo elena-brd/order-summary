@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(#ff8400f2, #e9aa44c8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: #f4f4f4;
+    max-width: 400px;
+    margin: 5rem auto;
+    box-shadow: 7px 7px 15px rgba(255, 111, 0, 0.226),
+        -7px 7px 15px rgba(255, 111, 0, 0.226);
+    border-radius: 10px;
+    padding: 1.5rem 0;
+}
+
+#card-content .logo i {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #D00000;
+    padding: 1rem 0;
+}
+
+#card-content .logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.additionals-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.additionals-info p {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.items,
+.additional-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 0 0.5rem;
+    margin: 0 0.7rem;
+    border: 1px solid #ccc;
+}
+
+.btn-add,
+.btn-sub {
+    border: none;
+    color: #777;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.additional-price .price {
+    margin-right: 0.5rem;
+}
+
+.additional-price .btn-close {
+    border: none;
+    background: #e8e8e8;
+    color: #bebebe;
+    border-radius: 50%;
+    padding: 0.2rem 0.4rem;
+}
+
+#add-beverage {
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+#add-beverage:hover {
+    background: #e8e8e8;
+}
+
+#calculation {
+    background: #e8e8e8;
+    padding: 1rem 2rem;
+    margin: 2rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.subtotal,
+.shipping,
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3rem 0;
+}
+
+.checkout {
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border: none;
+    background: transparent;
+    color: #ff8400f2;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkout:hover {
+    color: #D00000;
+}
